@@ -17,8 +17,8 @@ const tables = {
   Meeting: [
     "meeting_no INT",
     "meeting_title VARCHAR(50)",
-    "starting_time TIME",
-    "ending_time TIME",
+    "starting_time DATETIME",
+    "ending_time DATETIME",
     "room_no INT",
   ],
 };
