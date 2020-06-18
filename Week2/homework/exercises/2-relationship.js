@@ -32,7 +32,7 @@ db.query(
   FOREIGN KEY (author_id) REFERENCES Authors(author_no) ON DELETE CASCADE);`,
   (error, results, fields) => {
     if (error) throw error;
-    console.log("Author Paper Table created...");
+    console.log("Author-Paper Table created...");
   }
 );
 
