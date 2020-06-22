@@ -28,7 +28,7 @@ const CREATE_AUTHORS_PAPERS_TABLE = `
   REFERENCES Research_Papers(paper_id) ON DELETE CASCADE,
   FOREIGN KEY (author_id) 
   REFERENCES Authors(author_no) ON DELETE CASCADE);`;
-// Because data that references unexisting elemnts can't be entered two queries are created, first to drop the foreign key of the collborator column, and then to set again after the data was entered. Another option might be to enter the data into the collborator column separately
+// Because data that references unexisting elements can't be entered two queries are created, first to drop the foreign key of the collborator column, and then to set again after the data was entered. Another option might be to enter the data into the collborator column separately
 const DROP_FOREIGN_KEY = `
   ALTER TABLE Authors 
   DROP FOREIGN KEY fk_author;
