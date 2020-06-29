@@ -1,0 +1,14 @@
+{
+  "name": "ex4-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex4-MongoDb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.9"
+  }
+}
